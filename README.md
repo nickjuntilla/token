@@ -1,7 +1,5 @@
 # Tokens
-[ ![Codeship Status for ConsenSys/Tokens](https://app.codeship.com/projects/ccf33380-4dfa-0135-cfa1-72c4965f7f14/status?branch=master)](https://app.codeship.com/projects/233433)
-
-This repo contains Solidity smart contract code to issue simple, standards-compliant tokens on Ethereum. It can be used to create any form of asset, currency, coin, hours, usage tokens, vunk, etc.  
+This repo contains Solidity smart contract code to issue simple, standards-compliant tokens on Ethereum. It can be used to create any form of asset, currency, coin, hours, usage tokens, vunk, etc.  Please alter 2_deploy_tokens.js to define your token.
 
 The default is [StandardToken.sol](https://github.com/ConsenSys/Tokens/blob/master/contracts/StandardToken.sol) which ONLY implements the core ERC20 standard functionality [#20](https://github.com/ethereum/EIPs/issues/20).  
 
@@ -31,4 +29,4 @@ This is published under tokens at ethpm.
 
 **Pull requests are welcome! Please keep standards discussions to the EIP repos.**
 
-When submitting a pull request, please do so to the `staging` branch. 
+When submitting a pull request, please do so to the `staging` branch.

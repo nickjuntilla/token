@@ -1,4 +1,4 @@
-pragma solidity ^0.4.13;
+pragma solidity ^0.4.19;
 
 contract Token {
     /* This is a slight change to the ERC20 base standard.
@@ -133,4 +133,3 @@ contract HumanStandardToken is StandardToken {
         return true;
     }
 }
-
